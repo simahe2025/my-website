@@ -288,7 +288,7 @@ a{color:inherit;text-decoration:none}
 }
 
 /* ====== 导航下拉子菜单 ====== */
-.nav{display:flex;align-items:center}
+.nav{align-items:center}
 .nav-item{position:relative}
 .nav-item > a{display:flex;align-items:center;gap:4px}
 .caret{font-size:9px;opacity:.55;transition:transform .15s}
