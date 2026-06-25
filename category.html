@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分类 · AI 与教育手记</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">JT</span>
+      <span class="brand-text">AI 与教育手记 <em>field notes</em></span>
+    </a>
+    <button class="nav-toggle" aria-label="展开菜单" aria-expanded="false">菜单</button>
+    <nav class="nav" id="nav">
+      <a href="index.html">首页</a>
+      <a href="category.html?cat=ai-edu" data-cat="ai-edu">AI+教育</a>
+      <a href="category.html?cat=tools" data-cat="tools">工具心得</a>
+      <a href="category.html?cat=teaching" data-cat="teaching">教学实践</a>
+      <a href="category.html?cat=research" data-cat="research">研究项目</a>
+      <a href="category.html?cat=notes" data-cat="notes">随笔杂谈</a>
+      <a href="category.html?cat=course" data-cat="course">公开课</a>
+      <a href="about.html">关于我</a>
+      <a href="about.html">联系我</a>
+    </nav>
+    <button class="search-btn" aria-label="搜索">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main" class="cat-page">
+  <div class="wrap">
+    <header class="cat-head">
+      <p class="cat-eyebrow">分类</p>
+      <h1 class="cat-title" id="catTitle">分类</h1>
+      <p class="cat-count" id="catCount"></p>
+    </header>
+
+    <div class="cat-list" id="catList"><!-- 文章列表由脚本注入 --></div>
+
+    <nav class="pager" aria-label="翻页">
+      <span class="pager-cur">1</span>
+    </nav>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>© 2026 姜湉 · AI 与教育手记</span>
+    <span>用纯静态页面搭建，托管于 GitHub Pages</span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
