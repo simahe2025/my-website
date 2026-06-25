@@ -29,7 +29,7 @@ window.POSTS = [
     cat: "ai-edu", subcat: "ai-research", catName: "AI+教育", img: "g5",
     title: "AI 辅助心理健康教育：1159 份问卷告诉我的事",
     excerpt: "一个省级课题做完，最有价值的不是结论，而是过程中被推翻的几个假设。",
-    date: "2026-05-20", url: "posts/post-1.html"
+    date: "2026-05-20", url: "posts/post-5.html"
   },
   {
     cat: "course", catName: "公开课", img: "g6",
@@ -81,7 +81,6 @@ window.RESEARCH = {
       { title:"共青团科研立项·“青聚力”组织建设类团支部主题团日活动创新实践——传唱学堂乐歌 携手奋进新征程", rank:"主持", fund:"—", status:"立项", source:"广东第二师范学院共青团 · 2024" },
       { title:"“五育并举”视域下音乐疗愈与人工智能融合的师范生心理育人模式构建（校内科研项目·学生工作专项 2025XKY008）", rank:"主持", fund:"—", status:"立项", source:"广东第二师范学院 · 2025" },
       { title:"“心灵作曲家”——跨学科合作下的 AI 式歌曲创编与疗愈研究", rank:"主持", fund:"—", status:"立项", source:"广东二师 · 学生工作部易班网络育人项目 · 2025" },
-      { title:"佛山市哲学社会科学规划项目", rank:"—", fund:"0.8 万", status:"立项", source:"佛山市哲学社会科学 · 2026" },
       { title:"瑶族长鼓舞纪念币外观设计专利证书（指导学生）", rank:"指导", fund:"—", status:"知识产权授权", source:"国家知识产权局 · 2025" },
       { title:"指导学生·大学生创新创业项目", rank:"指导", fund:"0.15 万", status:"立项", source:"广东第二师范学院 · 大创项目 · 2026" },
       { title:"指导学生·大学生创新创业项目", rank:"指导", fund:"0.15 万", status:"立项", source:"广东第二师范学院 · 大创项目 · 2026" }
